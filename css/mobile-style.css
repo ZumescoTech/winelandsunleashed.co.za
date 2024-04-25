@@ -1,0 +1,82 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers .rect {
+        width: 100%;
+        height: auto;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+    .rect p{
+        padding: 1rem;
+    }
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .platform .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .desktop i {
+        font-size: 8vmin;
+    }
+
+    .section-4 .carousel-item {
+        padding-left: 0.6rem;
+    }
+
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+}
+
+/* screen size 375px
+@media (max-width: 768px) {
+    .numbers .rect {
+        max-width: 100%;
+        /* Full width on smaller screens */
+    /* } */
+
+    .numbers .rect h2 {
+        font-size: 2.5rem;
+        /* Reduced font size for smaller screens */
+    }
+
+    .numbers .rect p {
+        font-size: 0.9rem;
+        /* Reduced font size for smaller screens */
+    }
+/* } */ 
+
+@media only screen and (max-width: 375px) {
+    .section-4 .card {
+        width: 18em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .section-4 .carousel-inner {
+        margin-left: -4vmin;
+    }
+}
+

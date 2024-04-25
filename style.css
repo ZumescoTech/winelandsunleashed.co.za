@@ -1,0 +1,107 @@
+/* Custom CSS for Winelands Unleashed Landing Page */
+
+/* Navbar */
+.navbar {
+    background-color: #8B0000;
+    /* Dark red color for navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Welcome Section */
+section:nth-child(1) {
+    background-color: #F5F5F5;
+    /* Light gray background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Services Section */
+section:nth-child(2) {
+    padding: 50px 0;
+}
+
+section:nth-child(2) h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Service cards */
+section:nth-child(2) .col-md-6 {
+    margin-bottom: 30px;
+}
+
+section:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Why Choose Us Section */
+section:nth-child(3) {
+    background-color: #E6E6FA;
+    /* Lavender background */
+    padding: 50px 0;
+}
+
+section:nth-child(3) h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Why Choose Us cards */
+section:nth-child(3) .col-md-4 {
+    margin-bottom: 30px;
+}
+
+section:nth-child(3) h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Explore Our Blog Section */
+section:nth-child(4) {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Join Us Section */
+section:nth-child(5) {
+    background-color: #FFD700;
+    /* Gold background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* FontAwesome icons styling */
+.fa {
+    margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    section:nth-child(2) .col-md-6 {
+        margin-bottom: 20px;
+    }
+
+    section:nth-child(3) .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
